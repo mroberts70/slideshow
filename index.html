@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<!-- viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- tab title -->
+	<title>Poison Dart Frogs are Cool</title>
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="styles/normalize.css">
+
+    <!-- shiv -->
+    <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="styles/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+
+	<!----------- my style sheet ------------------>
+	<link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+
+	<header>
+		<img src="images/logofrog2.png">
+		<h1>Poison Dart Frogs Will Trip You Out</h1>
+	</header>
+
+	<main>
+
+		<section>
+
+			<div id="wrapper">
+				<div class="slider-wrapper theme-bar">
+					<div id="slider" class="nivoSlider">
+						<img src="images/frog_01.jpg" data-thumb="images/1.jpg" alt="" title="#cptn_01" />
+						<img src="images/frog_02.jpg" data-thumb="images/2.jpg" alt="" title="#cptn_02" />
+						<img src="images/frog_03.jpg" data-thumb="images/3.jpg" alt="" title="#cptn_03" />
+						<img src="images/frog_04.jpg" data-thumb="images/4.jpg" alt="" title="#cptn_04" />
+						<img src="images/frog_05.jpg" data-thumb="images/5.jpg" alt="" title="#cptn_05" />
+						<img src="images/frog_06.jpg" data-thumb="images/6.jpg" alt="" title="#cptn_06" />
+						<img src="images/frog_07.jpg" data-thumb="images/7.jpg" alt="" title="#cptn_07" />
+						<img src="images/frog_08.jpg" data-thumb="images/8.jpg" alt="" title="#cptn_08" />
+						<img src="images/frog_09.jpg" data-thumb="images/9.jpg" alt="" title="#cptn_09" />
+						<img src="images/frog_10.jpg" data-thumb="images/10.jpg" alt="" title="#cptn_10" />
+						<img src="images/frog_11.jpg" data-thumb="images/11.jpg" alt="" title="#cptn_11" />
+						<img src="images/frog_12.jpg" data-thumb="images/12.jpg" alt="" title="#cptn_12" />
+						<img src="images/frog_13.jpg" data-thumb="images/13.jpg" alt="" title="#cptn_13" />
+					</div>
+
+					<div id="cptn_01" class="nivo-html-caption"> Poison dart frogs are native to tropical Central and South America </div>
+					<div id="cptn_02" class="nivo-html-caption"> "Poison dart frog" is the common name of a group of frogs in the family Dendrobatidae </div>
+					<div id="cptn_03" class="nivo-html-caption"> Some species of the Dendrobatidae family exhibit extremely bright coloration along with high toxicity, while others have cryptic coloration with minimal to no amount of observed toxicity.</div>
+					<div id="cptn_04" class="nivo-html-caption"> The species that have great toxicity have a diet rich in ants, mites and termites</div>
+					<div id="cptn_05" class="nivo-html-caption"> These amphibians are often called "dart frogs" due to the Amerindians' indigenous use of their toxic secretions to poison the tips of blowdarts</div>
+					<div id="cptn_06" class="nivo-html-caption"> Most species of poison dart frogs are small, sometimes less than 1.5 cm (0.59 in) in adult length, although a few grow up to 6 cm (2.4 in) in length</div>
+					<div id="cptn_07" class="nivo-html-caption"> Many poison dart frogs in the genera Oophaga and Ranitomeya carry their newly hatched tadpoles into the canopy</div>
+					<div id="cptn_08" class="nivo-html-caption"> The operational sex ratio in the poison dart frog family is mostly female biased</div>
+					<div id="cptn_09" class="nivo-html-caption"> Some poison dart frogs species include a number of conspecific color morphs that emerged as recently as 6,000 years ago</div>
+					<div id="cptn_10" class="nivo-html-caption"> Many poison dart frogs secrete lipophilic alkaloid toxins such as allopumiliotoxin 267A, batrachotoxin, epibatidine, histrionicotoxin, and pumiliotoxin 251D through their skin</div>
+					<div id="cptn_11" class="nivo-html-caption"> Despite the toxins used by some poison dart frogs, some predators have developed the ability to withstand them. One is the snake Leimadophis epinephelus, which has developed immunity to the poison</div>
+					<div id="cptn_12" class="nivo-html-caption"> Skin toxicity evolved alongside bright coloration, perhaps preceding it</div>
+					<div id="cptn_13" class="nivo-html-caption"> Conspicuousness and toxicity may be inversely related, as polymorphic poison dart frogs that are less conspicuous are more toxic than the brightest and most conspicuous species</div>
+
+
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(window).load(function() {
+					$('#slider').nivoSlider();
+
+				});
+			</script>
+
+
+		</section>
+
+		<script>
+			window.onload = function() {
+				var d = new Date();
+				var n = d.getFullYear();
+				document.getElementById("copyright").innerHTML = n;
+
+			}
+		</script>
+
+		<footer><p>&copy; Copyright <span id="copyright"></span> &#8226; Michael Roberts Productions</p></footer>
+
+	</main>
+
+</body>
+
+</html>
