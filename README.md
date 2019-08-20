@@ -7,4 +7,4 @@ Nivo Slider Slideshow
 
 Address:
 
-https://quirky-tesla-89694a.netlify.com/
+https://nivo-slider.netlify.com
